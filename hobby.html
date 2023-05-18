@@ -1,0 +1,203 @@
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #212F3C;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #212F3C;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Home</a>
+  <a href="aboutme.html">About me</a>
+  <a href="family.html">Family</a>
+  <a href="education.html">Education</a>
+  <a href="hobby.html">Hobby</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #283747;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</head>
+
+<body>
+<body bgcolor="#F5B7B1">
+
+<center><img src="C:/Users/User/OneDrive/Desktop/SARAH AINA BINTI AHAMAD ZAHIDI_2021105597_PERSONAL WEBSITE_IMD311/image/banner5.png" width="600" height="500" border= "5" style="width:60%;"></center>
+
+<br>
+<br>
+
+<p style="text-align:center"><font face="lucida calligraphy" size="4">We can't overstate the value that hobbies provide to our lives. They give us something to think about when we have some spare time, and they also make us happy. Our getaway from the actual world and activity that helps us forget about our troubles are our hobbies. In addition to that, they make the way we live more exciting and entertaining. When seen in this light, each of our pastimes is highly beneficial to us. Watching television shows, motion pictures, and anime is one of my favorite hobbies.</p></font>
+
+
+<center><img src="C:/Users/User/OneDrive/Desktop/SARAH AINA BINTI AHAMAD ZAHIDI_2021105597_PERSONAL WEBSITE_IMD311/video/drama 3.gif" alt="Watching Drama" style="width:400px;height:200px;"></center>
+<br>
+
+<p style="text-align:center"><font face="lucida calligraphy" size="4">My activity can be considered a waste of time by some people, but for me, it's a place of comfort. This is owing to the fact that I often take the completion of a task as an opportunity to reward myself by watching a drama , movie or an anime show. I consider this my reward for completing the task at hand. It makes no difference to me whether this is a major or minor thing. Anything that I've done needs to have a form of reward for me, both so that I can feel like I've accomplished something and so that I can be more productive in the future.  </p></font>
+
+<br>
+
+<center><img src="C:/Users/User/OneDrive/Desktop/SARAH AINA BINTI AHAMAD ZAHIDI_2021105597_PERSONAL WEBSITE_IMD311/image/buddy daddies.jpg" width="310" height="500"></center>
+<br>
+
+<p style="text-align:center"><font face="lucida calligraphy" size="4">Recently, I've been very into the anime series Buddy Daddies. Kazuki Kurusu, the protagonist, is a criminal coordinator and lives with his closest buddy Rei Suwa, a trained assassin who has been doing contract killing since he was a youngster. While Rei is a man of few words who spends his free time playing video games, the extroverted Kazuki enjoys gambling and ladies. After four-year-old Miri Unasaka, whose father is a mafia leader, walks into a hotel shootout seeking for him, the two friends find themselves taking care of her. In this anime, we see how the two killers evolve as a result of their time spent caring for Miri. Totally family-friendly, this show. Even though I've only seen the first 12 episodes of this anime, I'm really enjoying the story and how they all turn out to be a happy family in the end. While I can see why many fans of this anime would want to see more episodes, I personally found the series' conclusion to be satisfying enough that I didn't feel the need to continue the series.</p></font>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+</style>
+
+<div class="scroll-container">
+  <img src="C:/Users/User/OneDrive/Desktop/SARAH AINA BINTI AHAMAD ZAHIDI_2021105597_PERSONAL WEBSITE_IMD311/image/miri.jpg" width="500" height="400">
+  <img src="C:/Users/User/OneDrive/Desktop/SARAH AINA BINTI AHAMAD ZAHIDI_2021105597_PERSONAL WEBSITE_IMD311/image/kazuki.jpg" width="500" height="400">
+  <img src="C:/Users/User/OneDrive/Desktop/SARAH AINA BINTI AHAMAD ZAHIDI_2021105597_PERSONAL WEBSITE_IMD311/image/rei suwa.jpg" width="500" height="400">
+  <img src="C:/Users/User/OneDrive/Desktop/SARAH AINA BINTI AHAMAD ZAHIDI_2021105597_PERSONAL WEBSITE_IMD311/image/kyutaro.jpg" width="500" height="400">
+</div>
+
+<center><p>Character in Buddy Daddies.</center></p>
+
+<br>
+<br>
+<br>
+
+</body>
+</html>
